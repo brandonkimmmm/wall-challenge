@@ -1,0 +1,19 @@
+{
+  "name": "wall",
+  "version": "1.0.0",
+  "description": "An app that allows users to post and read comments on a wall",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonkimmmm/wall-challenge.git"
+  },
+  "author": "Brandon Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonkimmmm/wall-challenge/issues"
+  },
+  "homepage": "https://github.com/brandonkimmmm/wall-challenge#readme"
+}
