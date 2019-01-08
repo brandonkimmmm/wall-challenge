@@ -2,9 +2,10 @@
   "name": "wall",
   "version": "1.0.0",
   "description": "An app that allows users to post and read comments on a wall",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "export NODE_ENV=test && jasmine"
+    "test": "export NODE_ENV=test && jasmine",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/brandonkimmmm/wall-challenge/issues"
   },
-  "homepage": "https://github.com/brandonkimmmm/wall-challenge#readme"
+  "homepage": "https://github.com/brandonkimmmm/wall-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
