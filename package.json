@@ -2,7 +2,7 @@
   "name": "wall",
   "version": "1.0.0",
   "description": "An app that allows users to post and read comments on a wall",
-  "main": "app.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "export NODE_ENV=test && jasmine",
     "start": "node src/server.js"
@@ -22,8 +22,10 @@
     "request": "^2.88.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "express-validator": "^5.3.1",
     "pg": "^7.7.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.42.0"

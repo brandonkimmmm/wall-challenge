@@ -12,16 +12,16 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      userId: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        onDelete: 'CASCADE',
-        references: {
-          model: 'Users',
-          key: 'id',
-          as: 'userId'
-        }
-      },
+      // userId: {
+      //   type: Sequelize.INTEGER,
+      //   allowNull: false,
+      //   onDelete: 'CASCADE',
+      //   references: {
+      //     model: 'Users',
+      //     key: 'id',
+      //     as: 'userId'
+      //   }
+      // },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

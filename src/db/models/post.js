@@ -4,19 +4,19 @@ module.exports = (sequelize, DataTypes) => {
     message: {
       type: DataTypes.STRING,
       allowNull: false
-    },
-    userId: {
-      type: DataTypes.INTEGER,
-      allowNull: false
     }
+    // userId: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false
+    // }
   }, {});
   Post.associate = function(models) {
     // associations can be defined here
 
-    Post.belongsTo(models.User, {
-      foreingKey: 'userId',
-      onDelete: 'CASCADE'
-    })
+    // Post.belongsTo(models.User, {
+    //   foreingKey: 'userId',
+    //   onDelete: 'CASCADE'
+    // })
   };
   return Post;
 };
